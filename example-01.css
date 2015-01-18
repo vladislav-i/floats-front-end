@@ -27,13 +27,15 @@
 }
 
 .footer {
-    clear: both; /* to clear the floated elements above it. try removing me and see what happens. it might be more obvious if you add some margin to all the elements. */
+    clear: both;  /* to clear the floated elements above it. try removing me and see what happens. it might be more obvious if you add some margin to all the elements. */
 
 }
 
 
-/*div {
+div {
     margin: 20px;
-}*/
+}
 
 /* if you comment this margin and the footer clear out, you'll be more able to see what happens when you don't clear the footer. but because you added margin, your pixel width values will no longer add up. how can you fix it? */
+
+/* Answer: width value has to have ammount of margin difference subtracted. For example sidebar and main both get missaligned after adding margin. If user subracts right amount of margin from each div (main-content, sidebar, etc...), pixel values should add up after and and alignment should fixed. */
