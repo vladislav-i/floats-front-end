@@ -6,3 +6,78 @@
 /* Example 13 */
 
 /* I'm blank! Write some CSS to style your layout! */
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	background:#999;
+	
+}
+.header {
+	width: 100%;
+	overflow:auto;
+	background:#000;
+}
+
+.mlogo {
+	padding:0 20px;;
+	float:left;
+}
+
+.mcar {
+	margin:0px 0px 0px 50px;
+	float: right;
+	
+
+}
+
+
+.img3 {
+	width: auto;
+	height:auto;
+	padding:5px;
+	float:right;
+	background:#fff;
+}
+
+
+.content {
+	background:#000;
+	overflow: auto;
+	
+}
+
+.sidebar {
+	padding: 5px;
+	float: left;
+	width: 310px;
+	background:#fff;
+}
+
+.sub-content {
+	float:right;
+	margin: 0 0 20px;
+	padding:2;
+	width: 480px;
+	height: 125px;
+    font-size:10px;
+	color:#fff;
+	background:#000;
+}
+
+.sub-content-2 {
+	float:right;
+	margin: 0 0 20px;
+	padding:2;
+	width: 480px;
+	height: 125px;
+    font-size:10px;
+	color:#fff;
+	background:#000;
+}
+
+.footer {
+	background:#fff;
+	padding:5px;
+	text-align:center;
+}
