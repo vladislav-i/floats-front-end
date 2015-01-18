@@ -31,10 +31,11 @@
 
 }
 
-
+/*
 div {
     margin: 20px;
 }
+*/
 
 /* if you comment this margin and the footer clear out, you'll be more able to see what happens when you don't clear the footer. but because you added margin, your pixel width values will no longer add up. how can you fix it? */
 
