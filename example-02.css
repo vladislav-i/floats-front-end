@@ -15,13 +15,23 @@
 .sidebar {
 	float: left;
 	width: 250px;
+	height: 300px;
+	/* 1. add correct height = 300px */
 }
 
 .main-content {
 	float: left;
-	/* hint! */
+	width: 734px;
+	height: 300px;
+	
+	/* 
+		1. 1024px - 250px = 774px - padding(20px) * 2 =  734px;
+	    2. add correct height = 300px
+		
+	 */
 }
 
 .footer {
-	/* hint! */
+	clear:both;
+	/* clear elements above (left and right)*/
 }
