@@ -6,23 +6,50 @@
 /* Example 07 */
 
 .container {
-	width: 1024px; /* change me to a percentage width, like 80% */
+	width: 80%; /* change me to a percentage width, like 80% 
+				Answer: when user resize window size to around 490 pixels, it breaks.*/
 	margin: 0 auto;
 }
 
 
-.header {}
+.header {
+	overflow:auto;
+}
 
-.logo {}
+.logo {
+	float:left;
+	width:30%
+	
+}
 
-.navigation {}
+.navigation {
+	float:right;
+	width: 65%;
+}
 
-.sidebar {}
+.sidebar {
+	float:left;
+	width:30%;
+	height:10%;
+}
 
-.main-content {}
+.main-content {
+	overflow:auto;
+}
 
-.sub-content {}
+.sub-content {
+	float:right;
+	width:65%;
+	height:10%;
+}
 
-.sub-content-2 {}
+.sub-content-2 {
+	float:right;
+	width:65%;
+	height:10%;
+	
+}
 
 .footer {}
+
+
