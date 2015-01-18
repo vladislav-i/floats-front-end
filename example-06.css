@@ -6,29 +6,48 @@
 /* Example 06 */
 
 .container {
-	width: 1024px; /* what happens to the widget boxes when you change this width? */
+	width: 1024px; /* what happens to the widget boxes when you change this width? 
+					Answer:  boxes will drop onto next line/row */
 	margin: 0 auto;
 }
 
 
-.main-content {}
-/* hint! what do you need to add here? */
+.main-content {
+	overflow:auto;
+}
+/* hint! what do you need to add here?
+	overflow will extend as large as it needs to encompass child elements inside that are floated 
+ */
 
 .widget {
-	/* how do you make the widgets float next to each other? */
-	/* what happens when you change float left to float right? why? */
+	float:left;
+	/* how do you make the widgets float next to each other?
+	 Answer: user can edit css to float left or right. */
+	 
+	/* what happens when you change float left to float right? why? 
+	Answer:  when changing float to right, widgets will start from right to left.
+	*/
 }
 
 
 .footer {
+	clear:both;
 	/* hint! */
 }
 
 
-/* Bonus: what happens if you make a couple of the widgets taller than the other? */
-/*.widget.tall {}*/
+/* Bonus: what happens if you make a couple of the widgets taller than the other?
+  Answer: It will change spacing between widgets, forcing  widgets onto new row, after widget that had its height modified.
+ */
+/*
+.widget.tall {
+	height: 400px;
+}*/
 
-/* this CSS class targets widget #5. what can you do to it to make the rows of widgets get back in order? */
+/* this CSS class targets widget #5. what can you do to it to make the rows of widgets get back in order?
+	Answer: user can use clear: left/right/both to make widget 5 be on same line as 6,7,8, etc... 
+ */
 .widget.fix {
 	background: #8F1B65;
+	clear:left;
 }
