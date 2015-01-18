@@ -10,14 +10,30 @@
 	margin: 0 auto;
 }
 
-.header {}
+.header {
+	width:100%;
+}
 
 
-.sidebar {}
+.sidebar {
+	float:left;
+	width:30%;
+	height:300px;
+}
 
-.main-content {}
+.main-content {
+	float:left;
+	width:40%;
+	height:300px;
+}
 
-.sub-content {}
+.sub-content {
+	float:left;
+	width:30%;
+	height:300px;
+}
 
 
-.footer {}
+.footer {
+	clear:both;
+}
