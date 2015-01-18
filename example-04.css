@@ -11,22 +11,35 @@
 }
 
 
-.header {}
+.header {
+	overflow:auto;
+	/* Extends as large as needd to encompass child elements inside that are floated*/
+}
 /* hint! you have to contain the floated children elements. */
 
 .logo {
+	float:left;
 	/* hint! */
 }
 
 .navigation {
+	float:right;
 	/* hint! */
 }
 
+
 .sidebar {
+	float:left;
+	width:250px;
+	height:300px;
 }
 
 .main-content {
+	float:left;
+	width:734px;
+	height:300px;
 }
 
 .footer {
+	clear:both;
 }
